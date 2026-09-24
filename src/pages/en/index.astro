@@ -1,0 +1,49 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('blog', ({ data }) => data.lang === 'en');
+posts.sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime());
+---
+
+<Layout title="Éco-Antilles — Caribbean Ecological Transition & Clean Energy (English Edition)" description="Independent portal for island sustainability: rooftop solar engineering, rainwater cistern sizing, and tropical bioclimatic architecture." lang="en">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-emerald-100 text-emerald-900 border border-emerald-300 mb-4">
+        English Edition
+      </span>
+      <h1 class="text-4xl sm:text-5xl font-extrabold text-emerald-950 tracking-tight">
+        Caribbean Ecological Transition
+      </h1>
+      <p class="mt-4 text-lg text-emerald-800">
+        Technical insights for island energy autonomy, solar battery storage, rainwater security, and marine biodiversity stewardship.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {posts.map(post => (
+        <article class="bg-white border border-emerald-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+          <div>
+            <span class="inline-block text-xs font-bold text-emerald-700 uppercase tracking-wider mb-2">
+              {post.data.category}
+            </span>
+            <h2 class="text-xl font-bold text-emerald-950 mb-3 hover:text-emerald-700 transition-colors">
+              <a href={`/en/${post.id.replace(/^en\//, '')}/`}>{post.data.title}</a>
+            </h2>
+            <p class="text-emerald-800 text-sm line-clamp-3 mb-4">
+              {post.data.description}
+            </p>
+          </div>
+          <div class="pt-4 border-t border-emerald-100 flex items-center justify-between">
+            <span class="text-xs text-emerald-600">
+              {new Date(post.data.pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+            </span>
+            <a href={`/en/${post.id.replace(/^en\//, '')}/`} class="text-sm font-semibold text-emerald-700 hover:text-emerald-900">
+              Read guide &rarr;
+            </a>
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</Layout>
