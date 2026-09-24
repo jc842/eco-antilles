@@ -1,0 +1,37 @@
+# Éco-Antilles — Observatoire de la Transition Écologique & Énergies Renouvelables
+
+> Le portail caribéen de la transition écologique, de l
+
+## Présentation générale
+Éco-Antilles — Observatoire de la Transition Écologique & Énergies Renouvelables (https://eco-antilles.com) est un média d'information et guide spécialisé indépendant dédié à sa thématique d'expertise. Notre mission est d'apporter une information fiable, vérifiée et actualisée aux passionnés, professionnels et résidents, en valorisant les meilleures pratiques, les acteurs locaux et l'art de vivre sous les alizés.
+
+## Structure du site & Thématiques phares
+Le contenu est structuré autour des axes éditoriaux majeurs suivants :
+
+- **Énergie Solaire & Batteries** : Analyses, guides détaillés, conseils pratiques et retours d'expérience sur le terrain.
+- **Gestion de l** : Analyses, guides détaillés, conseils pratiques et retours d'expérience sur le terrain.
+- **Éco-Habitat & Bioclimatisme** : Analyses, guides détaillés, conseils pratiques et retours d'expérience sur le terrain.
+- **Biodiversité & Littoral** : Analyses, guides détaillés, conseils pratiques et retours d'expérience sur le terrain.
+- **Économie Circulaire** : Analyses, guides détaillés, conseils pratiques et retours d'expérience sur le terrain.
+
+## Ressources & Publications
+- [Tous les articles du Magazine](https://eco-antilles.com/blog/) : Plus de 200 publications thématiques, guides d'experts et fiches pratiques rédigées par notre rédaction.
+- [Accueil international (English)](https://eco-antilles.com/en/) : Version anglophone des dossiers et guides de référence.
+- [Accueil international (Español)](https://eco-antilles.com/es/) : Version hispanophone des dossiers et guides de référence.
+
+## Éthique éditoriale & Charte de qualité
+Éco-Antilles — Observatoire de la Transition Écologique & Énergies Renouvelables s'engage au quotidien sur une charte stricte :
+- Production d'analyses indépendantes, objectives et fondées sur des données terrain.
+- Sensibilisation active au respect de l'environnement local et à la préservation des écosystèmes.
+- Valorisation des artisans, commerces, initiatives durables et talents régionaux.
+
+## Données techniques & Respect de la vie privée
+- Plateforme statique haute performance (Astro 5 SSG, hébergement Edge Cloudflare Pages).
+- Mesure d'audience 100% cookieless via Matomo auto-hébergé, strictement conforme au RGPD et exemptée de consentement préalable selon les recommandations de la CNIL.
+- Régie publicitaire Revive Adserver intégrée de façon asynchrone garantissant une vitesse d'affichage optimale sans traçage intrusif.
+
+## Informations légales & Contact
+- Éditeur : Éco-Antilles — Transition Écologique & Énergies Renouvelables
+- Contact rédaction : contact@eco-antilles.com
+- Mentions Légales : https://eco-antilles.com/mentions-legales/
+- Politique de Confidentialité : https://eco-antilles.com/politique-confidentialite/
